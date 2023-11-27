@@ -12,6 +12,7 @@ The Holiday Cost Calculator is a Python program designed to help users estimate 
 6. [Contributing](#contributing)
 7. [License](#license)
 8. [Version 2](#working-with-classes)
+9. [Version 3](#GUI-Kivvy-Framework-'Coming-Soon')
 
 ## Overview
 
