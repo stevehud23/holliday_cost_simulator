@@ -12,7 +12,7 @@ The Holiday Cost Calculator is a Python program designed to help users estimate 
 6. [Contributing](#contributing)
 7. [License](#license)
 8. [Version 2](#working-with-classes)
-9. [Version 3 GUI](#GUI-Kivvy-Framework-'Coming-Soon')
+9. [Version 3 GUI](#gui-kivvy-framework--coming-soon)
 
 ## Overview
 
@@ -92,3 +92,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 6. **Error Handling**:
     - implemented basic error handling using try-except blocks to catch input-related errors
+
+## GUI Kivvy Framework:  Coming Soon
