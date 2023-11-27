@@ -11,6 +11,7 @@ The Holiday Cost Calculator is a Python program designed to help users estimate 
 5. [User Guide](#user-guide)
 6. [Contributing](#contributing)
 7. [License](#license)
+8. [Version 2](#working-with-classes)
 
 ## Overview
 
@@ -69,3 +70,24 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Working With Classes
+0. **'ClassHolidayCost.py'**:
+    - This project yields the same results as version 1 but is more efficient with the use of a class method which utilizes the code for better redability, scalabilty,. There has been some minor updates to help better           functioning.  Here is a list of the inner logic and the updated funtion changes:
+
+2. **Validation Loops**:
+    -  To handle user input validation, ensuring that the program prompts users until valid input is provided. This is great for preventing crashes due to unexpected inputs
+      
+3. **Dictionary Usage**:
+    - To map user choices to corresponding values (like hotel types and city names) and then used these mappings to calculate costs.
+
+4. **Method Calls**:
+    - The method calls (self.hotel_cost, self.plane_cost, self.car_rental, etc.) to calculate total holliday cost
+
+5. **Recursion with reload_choice()'Minor Update Using Loop Instead '**:
+    - As repeated calls can consume stack space which may create problems with stack overflow.
+    - updated to a loop to avoid potential stack overflow for multiple reloads.
+    - This was new method was implemented for the reload function.  
+
+6. **Error Handling**:
+    - implemented basic error handling using try-except blocks to catch input-related errors
